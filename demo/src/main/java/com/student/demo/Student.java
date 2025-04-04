@@ -16,7 +16,7 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    //@Pattern(regexp = "^[a-zA-Z ]+$", message = "Name must contain only letters")
+
     @Column(nullable = false)
     private String name;
     @Column(nullable = false)
